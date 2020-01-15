@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+
+
     "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es6"
+
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -17,7 +23,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "experimentalDecorators": true
   },
   "include": [
     "src"
